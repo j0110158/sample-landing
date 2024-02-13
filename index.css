@@ -1,5 +1,6 @@
 body {
     display: grid;
+    max-width: 720px;
 }
 * {
     font-family: monospace;
@@ -37,8 +38,9 @@ h1 {
 .cat {
     position: relative;
     width: 200px;
-    left: 530px;
+    left: 150px;
     margin-top: 100px;
     border-radius: 15px;
     box-shadow: pink -5px 10px 10px;
+    max-width: 720px;
 }
