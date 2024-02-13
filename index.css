@@ -1,6 +1,6 @@
 body {
     display: grid;
-    max-width: 720px;
+
 }
 * {
     font-family: monospace;
