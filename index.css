@@ -13,7 +13,7 @@ h1 {
 }
 
 .buttons {
-    margin-top: -10px;
+    margin-top: 10px;
     text-align: center;
     cursor: pointer;
 }
@@ -24,7 +24,7 @@ h1 {
 }
 
 
-.button1, .button2 {
+.button1{
     font-size: 20px;
     border-radius: 10px;
     color: white;
@@ -32,4 +32,13 @@ h1 {
 }
 .button1:hover {
     background-color: rgb(254, 207, 215);
+}
+
+.cat {
+    position: relative;
+    width: 200px;
+    left: 530px;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: pink -5px 10px 10px;
 }
