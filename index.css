@@ -1,0 +1,35 @@
+body {
+    display: grid;
+}
+* {
+    font-family: monospace;
+    font-variant: small-caps;
+}
+
+h1 {
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.buttons {
+    margin-top: -10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: pink;
+    height: 30px;
+}
+
+
+.button1, .button2 {
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+}
+.button1:hover {
+    background-color: rgb(254, 207, 215);
+}
