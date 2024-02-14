@@ -26,13 +26,13 @@ body {
 
 .button1:hover {
     background-color: rgb(254, 207, 215);
-}
+}       
 
 .cat {
     position: relative;
-    width: 30vh;
-    left: 42%;
-    margin-top: 100px;
+    width: 30%;
+    left: 30%;
+    margin-top: 10%;
     border-radius: 15px;
     box-shadow: pink -5px 10px 10px;
     max-width: 720px;
