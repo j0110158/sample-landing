@@ -1,6 +1,5 @@
 body {
     display: grid;
-    max-width: 6.6in;
 
 }
 * {
@@ -17,7 +16,7 @@ body {
 .button1{
     background-color: pink;
     height: 30px;
-    margin-left: 20%;
+    margin-left: -20%;
     font-size: 20px;
     border-radius: 10px;
     color: white;
@@ -30,9 +29,9 @@ body {
 
 .cat {
     position: relative;
-    width: 30%;
-    left: 30%;
-    margin-top: 10%;
+    width: 200px;
+    left: 22%;
+    margin-top: 40%;
     border-radius: 15px;
     box-shadow: pink -5px 10px 10px;
     max-width: 720px;
