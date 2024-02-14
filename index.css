@@ -7,31 +7,39 @@ body {
     font-variant: small-caps;
 }
 
-.buttons {
-    margin-top: 10px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.button1{
+#button {
     background-color: pink;
-    height: 30px;
-    margin-left: -7%;
+    text-align: center;
+    margin: 20px 530px;
+    width: 100px;
+    padding: 10px;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
-    border-color: white;
 }
 
-.button1:hover {
+
+#button:hover {
     background-color: rgb(254, 207, 215);
 }       
+
+#msg {
+    text-align: center;
+    background-color: pink;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 470px ;
+    font-size: 20px;
+    display: none ;
+}
 
 .cat {
     position: relative;
     width: 200px;
-    left: 22%;
-    margin-top: 40%;
+    left: 39%;
+    margin-top: 5%;
     border-radius: 15px;
     box-shadow: pink -5px 10px 10px;
     max-width: 720px;
