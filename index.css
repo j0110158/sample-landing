@@ -1,7 +1,4 @@
-body {
-    display: grid;
 
-}
 * {
     font-family: monospace;
     font-variant: small-caps;
@@ -10,7 +7,7 @@ body {
 #button {
     background-color: pink;
     text-align: center;
-    margin: 20px 530px;
+    margin: 10px 140px;
     width: 100px;
     padding: 10px;
     font-size: 20px;
@@ -30,18 +27,36 @@ body {
     padding: 20px;
     color: white;
     border-radius: 5px;
-    margin: 20px 470px ;
+    margin: 20px 77px ;
     font-size: 20px;
-    display: none ;
+    display: none;
 }
 
 .cat {
-    position: relative;
     width: 200px;
-    left: 39%;
-    margin-top: 5%;
+    margin-left: 20%;
+    margin-top: 20%;
     border-radius: 15px;
     box-shadow: pink -5px 10px 10px;
-    max-width: 720px;
-    vertical-align: middle;
+}
+
+@media screen and(min-width: 600px) {
+    .cat {
+        float:none;
+        width: 100%;
+    }
+}
+
+@media screen and(min-width: 600px) {
+    #nsg {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and(max-width: 600px;) {
+    body {
+        float: none;
+        width: 100%;
+    }
 }
