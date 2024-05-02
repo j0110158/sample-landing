@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 70px auto 35%;
+    min-height: 150vh;
+}
+/* SIDEBAR */
+#side-bar {
+    background-color: #79AC78;
+}
+#box-archive {
+    color: white;
+    font-size: 190%;
+}   
+li {
+    list-style-type: none;
+    position: relative;
+    right: 130%;
+    margin-top: 400%;
+    padding-left: 65%;
+}
+li::before {
+    background: white;
+    border-radius: 8px;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 4px;
+    height: 20px;
+}
+/* END OF SIDEBAR */
+
+/* DASHBOARD */
+#dashboard {
+    background-color: #F5F5F5;
+}
+.Main-Title {
+    color: #79AC78;
+    font-size: 200%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+/* SEARCH-BAR */
+.search-bar {
+    margin: 5% 4%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+input.search {
+    width: 130%;
+    border: 1.3px solid #555;
+    border-radius: 10px;
+    padding: 1% 0% 1% 18%;
+    background: transparent url("searchicon.png") no-repeat 20px;
+    background-size: 3.6%;
+    font-size: 90%;
+    background-color: white;
+}
+#cart-icon {
+    font-size: 200%;
+    padding: 3%;
+    text-align: center;
+    width: 25%;
+    margin-left: 68%;
+    background-color: #79AC78;
+    color: white;
+    border-radius: 10px;
+}
+/* END OF SEARCH-BAR */
+
+/* FOOD N DRINK */
+.food-n-drink {
+    display: flex;
+    margin: -4% 0%;
+}
+.categories-Title {
+    color: black;
+    margin: -2% 4%;
+    font-size: 90%;
+}
+
+.food-container {
+    background-color: white;
+    font-size: 150%;
+    margin: 6% 4%;
+    padding: 1% 4%;
+}
+#food, #drink {
+    position: relative;
+    top: 10%;
+}
+.drink-container {
+    background-color: white;
+    font-size: 150%;
+    margin: 6% -2%;
+    padding: 1% 4%;
+}
+.food-container, .drink-container {
+    border: 1.5px solid #D9D9D9;
+    border-radius: 10px;
+    text-align: center;
+}
+#ud-title {
+    font-size: 50%;
+    position: relative;
+    bottom: 10%;
+}
+/* END OF FOOD N DRINK */
+
+/* PRODUCTS */
+.product-title {
+    padding: 2% 4%;
+    color: black;
+    font-size: 90%  ;
+}
+
+.products-container {
+    padding: 0% 5%;
+}
+
+/* PRODUCT-GRID */
+.product-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5%;
+    row-gap: 8%;
+}
+#product-as {
+    padding: 0% 0%;
+    background-color: #fff;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+}
+#ap-title {
+    font-size: 85%;
+}
+.ap-as {
+    padding: 5% 0%;
+    margin-left: 10%;
+    line-height: 1; 
+}
+#p-symbol {
+    line-height: 2;
+    font-size: 80%
+}
+#p-symbol::first-letter {
+    color: #79AC78;
+    font-size: 90%;
+}
+
+#ud-title-ad{
+    color: #555555;
+    font-size: 75%;
+}
+
+.add-to-cart {
+    padding: 2% 23%;
+    border-radius: 5px;
+    color: #26470E;
+    border: 1.5px solid #79AC78;
+    background-color: #79ac784b;
+}
+
+.ap-tag {
+    position: relative;
+    left: 5%;
+    top: 6%;
+    margin: -5% 0%;
+    z-index: 99;
+    background-color: #79AC78;
+    color: white;
+    width: 20%;
+    text-align: center;
+    border-radius: 100%;
+    padding: 4% 0%;
+    font-size: 90%;
+}
+.ap-pic-container {
+    width: 80%;
+    text-align: center;
+    margin: 0% 10%;
+    padding: 30% 0%;
+    color: rgba(128, 128, 128, 0);
+    background-color: rgba(128, 128, 128, 0.203);
+}
+.ap-pic {
+}
+/* END OF PRODUCT-GRID */
+
+/* END OF PRODUCTS */
+
+/* END OF DASHBOARD */
+
+/* ORDERLIST */
+#order-list {
+    background-color: #ECECEC;
+}
+.order-list-title {
+    text-align: right;
+    margin: 10% 6%;
+    font-size: 180%;
+    font-weight: 400;
+}
+
+.add-tbl-num-container {
+    background-color: #D9D9D9;
+    border: 1px solid #7D7D7D;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3% 0%;
+    margin: 10% 10%;
+}
+
+.a-product-name-container {
+
+}
+#a-product-name {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 5% 3%;
+    margin: 5% 10%;
+}
+#s1 {
+    color: #AAAAAA;
+    font-size: 120%;
+}
+#s2 {
+    padding: 1% 0%;
+}
+#s3 {
+    padding: 6% 10%;
+    font-size: 90%;
+}
+#s4 {
+    color: #AAAAAA;
+    padding: 6% 0%;
+}
+
+#a-product-name-down {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-left: 10px solid #79AC78;
+    border-radius: 10px;
+    padding: 5% 0%;
+    padding-bottom: 0%;
+    margin: 5% 10%;
+}
+#s3-3 {
+    margin: 6% -20%;
+    font-size: 90%;
+}
+#s5 {
+    font-size: 80%;
+    text-align: center;
+    margin: 20% 100%;
+}
+#fname{
+    margin: 20% 0%;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+}
+
+.total-order {
+    border-top: 1.5px dashed ;
+    margin: 10% 10%;
+}
+.total-order-list-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 10% 0%;
+    margin-left: 10%;
+    row-gap: 20%;
+    column-gap: 10%;
+}
+
+#total-discount {
+    font-size: 150%;
+}
+#total-add {
+    background-color: #79AC78;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5% 0%
+}
+#total {
+    font-size: 150%;
+}
+#total-peso {
+    font-size: 200%;
+}
+#total-peso::first-letter {
+    color: #79AC78;
+}
+
+.p-receipt {
+    background-color: #79ac784b;
+    border: 1px solid #79AC78;
+    border-radius: 30px;
+    padding: 2% 0%;
+    margin: 15% 20%;
+    font-size: 130%;
+    text-align: center;
+    
+}
+/* END OF ORDERLIST */
